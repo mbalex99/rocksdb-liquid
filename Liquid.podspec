@@ -38,5 +38,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ObjectiveRocks'
+  shared_ios_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ROCKSDB_LITE=1 IOS_CROSS_COMPILE=1 NROCKSDB_THREAD_STATUS=1' }
+  s.ios.pod_target_xcconfig = shared_ios_xcconfig
+  s.ios.user_target_xcconfig = shared_ios_xcconfig
 end

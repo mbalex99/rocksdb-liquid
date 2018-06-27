@@ -1,0 +1,6 @@
+framework module Pods_Liquid_Example {
+  umbrella header "Pods-Liquid_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

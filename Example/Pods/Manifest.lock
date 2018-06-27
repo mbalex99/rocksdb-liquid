@@ -1,0 +1,31 @@
+PODS:
+  - Liquid (0.1.0):
+    - ObjectiveRocks
+  - Nimble (7.0.3)
+  - ObjectiveRocks (0.9.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Liquid (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Nimble
+    - ObjectiveRocks
+    - Quick
+
+EXTERNAL SOURCES:
+  Liquid:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Liquid: 705afa298f4e9db4a604b85e5c611ac738bfca53
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  ObjectiveRocks: b3a5c79b6757a67566413fab3486731865ff96ef
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 9d7b85f13300fe5ae9f9ddfb0d437863a68ab5dd
+
+COCOAPODS: 1.5.0
