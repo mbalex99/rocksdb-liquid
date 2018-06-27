@@ -1,6 +1,0 @@
-framework module ObjectiveRocks {
-  umbrella header "ObjectiveRocks-umbrella.h"
-
-  export *
-  module * { export * }
-}
